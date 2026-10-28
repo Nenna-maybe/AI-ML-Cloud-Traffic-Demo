@@ -1,0 +1,37 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets - NEVER commit these
+.env
+.streamlit/secrets.toml
+
+# Local database files (may contain real records)
+*.db
+*.sqlite
+*.sqlite3
+data/backups/
+
+# Uploads and generated outputs
+data/uploads/*
+!data/uploads/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Model weights (downloaded automatically on first run)
+models/*
+!models/.gitkeep
+*.pt
+*.onnx
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,15 @@
+# Runtime dependencies for the app (local + Streamlit Community Cloud).
+# CPU-only PyTorch index: keeps the install small (no multi-GB CUDA libraries).
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+streamlit>=1.50,<2
+ultralytics>=8.3,<9
+torch>=2.2
+torchvision>=0.17
+opencv-python>=4.9
+pillow>=10.0
+numpy>=1.26
+pandas>=2.2
+plotly>=5.20
+boto3>=1.34
+python-dotenv>=1.0

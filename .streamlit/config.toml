@@ -1,0 +1,10 @@
+[server]
+# Upload limit in MB (the app also enforces its own limits per file type)
+maxUploadSize = 60
+
+[theme]
+primaryColor = "#1f4e79"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"
